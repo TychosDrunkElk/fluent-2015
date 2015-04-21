@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <template>
+            <p>I'm coming from <strong>a template!</strong></p>
+            <p>
+                this <span class="adjective"></span> template has been copied
+                <span class="number-of-copies"></span> times
+            </p>
+        </template>
+        <script type="text/javascript">
+            alert("This won't alert until template is cloned");
+        </script>
+
+        <img src="badpath.jpg">
+        <script type="text/javascript">
+            var template = document.querySelector('template');
+            var clone = document.importNode(template.content, true);
+
+        </script>
+    </body>
+    
+
+</html>
