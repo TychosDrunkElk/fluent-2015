@@ -35,6 +35,7 @@ Overview of webcomponents standard (no syntactic sugar like polymer or xtags)
 * can inject data into templates
 * no native data interpolation logic, but its just DOM! can be used with other things
 
+
 # Custom Elements
 * problem: seas of divs. div soup!
 * using class names and ids instead
@@ -99,4 +100,4 @@ Q: style tag scope?
     - syntactic sugar on top of webcomponents
     - no shadow dom :(
     - bitnative.com/handouts
-    
+
